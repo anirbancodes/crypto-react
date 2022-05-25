@@ -1,0 +1,94 @@
+.red {
+  color: rgb(238, 14, 14);
+  font-weight: 600;
+}
+.green {
+  color: #15b915;
+}
+.space-between {
+  display: flex;
+}
+
+@media screen and (max-width: 576px) {
+  .margin-right {
+    margin-right: 10px;
+  }
+  .padding-left {
+    /* margin-left: -40%; */
+  }
+  .first-line {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo-name {
+    display: flex;
+    justify-items: left;
+  }
+  .symbol-price {
+    display: flex;
+    justify-content: left;
+  }
+  .space-between {
+    display: flex;
+    justify-content: space-between;
+  }
+  .second-line {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.symbol {
+  text-transform: uppercase;
+}
+img {
+  height: 30px;
+  width: 30px;
+}
+h1 {
+  font-size: 16px;
+}
+@media screen and (min-width: 576px) {
+  .row {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* flex-direction: column; */
+  }
+
+  .first-line {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+  }
+  .logo-name {
+    display: flex;
+    /* justify-content: left; */
+  }
+  .symbol-price {
+    display: flex;
+    /* justify-content: left; */
+  }
+  .symbol {
+    display: flex;
+    /* justify-content: left; */
+  }
+  .second-line {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+  }
+  .row {
+    display: flex;
+    justify-content: space-around;
+  }
+  .red {
+    color: rgb(233, 10, 10);
+  }
+}
+hr {
+  background-color: rgb(211, 212, 216);
+  border: 0;
+  height: 1px;
+  border-radius: 10px;
+}

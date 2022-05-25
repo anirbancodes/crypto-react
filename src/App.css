@@ -1,0 +1,151 @@
+@import url("https://fonts.google.com/css2?family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 3px;
+  font-family: "Montserrat", sans-serif;
+  /* background-color: #000072; */
+  /* background: #f46b45; 
+  background: -webkit-linear-gradient(
+    to right,
+    #eea849,
+    #f46b45
+  ); 
+  background: linear-gradient(
+    to right,
+    #eea849,
+    #f46b45
+  );  */
+  /* background-image: linear-gradient(135deg, #00416a 15%, #e4e5e6 130%); */
+  background-image: linear-gradient(135deg, #f83600 10%, #f9d423 100%);
+  /* background-image: linear-gradient(135deg, #616161 10%, #9bc5c3 100%); */
+
+  /* background: #005c97;
+  background: -webkit-linear-gradient(to right, #363795, #005c97);
+  background: linear-gradient(to right, #363795, #005c97); */
+
+  /* background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%); */
+  background-attachment: fixed;
+  /* height: 100%; */
+  color: #fff;
+}
+.header {
+  display: flex;
+  margin-bottom: -50px;
+  justify-content: space-between;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.head-left {
+  display: flex;
+}
+.btn {
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  /* padding: 8px 6px; */
+  border-radius: 5px;
+
+  height: 40px;
+  margin-top: 12px;
+  transition: 0.5s;
+  border: 2px solid #ffae97;
+  /* background: white; */
+  color: #ff7f5d;
+  text-align: center;
+  text-decoration: none;
+}
+.btn:hover {
+  /* background: #ff7f5d; */
+  border: 2px solid white;
+  color: white;
+}
+.qc-arrow {
+  width: 20px;
+  height: 20px;
+}
+.logo-caption {
+  margin-top: 15px;
+  margin-left: 6px;
+  font-size: 20px;
+  font-family: monospace;
+  color: black;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+}
+.coin-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+  color: #fff;
+}
+.coin-search {
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+.coin-text {
+  margin-bottom: 32px;
+  text-align: center;
+}
+.coin-input {
+  padding-left: 16px;
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  border: 2px solid white;
+  /* background-image: linear-gradient(
+    -225deg,
+    #ac32e4 0%,
+    #7918f2 48%,
+    #4801ff 100%
+  ); */
+  background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+
+  color: white;
+}
+.coin-input::placeholder {
+  color: white;
+}
+.coin-input:active {
+  border: transparent;
+}
+::-webkit-scrollbar {
+  width: 18px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f84503;
+  border-radius: 20px;
+  border: 5px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #f99a16;
+}
+@media screen and (min-width: 576px) {
+  .header {
+    margin-left: 11vw;
+    margin-top: 5vh;
+  }
+  .btn {
+    margin-right: 12vw;
+  }
+}
